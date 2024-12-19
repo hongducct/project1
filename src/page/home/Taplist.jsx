@@ -34,8 +34,8 @@ const Taplist = () => {
     },
   ];
   return (
-    <div className="bg-white w-2/3 rounded-[40px] mx-auto">
-      <ul className="grid grid-cols-3 p-10 place-items-center gap-5">
+    <div className="bg-white rounded-[40px] mx-auto">
+      <ul className="grid grid-cols-3 p-10 gap-5">
         {list.map((item) => (
           <Link className="flex flex-col items-center hover:underline ">
             <img src={item.img} alt="" />

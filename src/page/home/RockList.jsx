@@ -5,8 +5,8 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 const RockList = () => {
   return (
     <div>
-      <Tabs defaultValue="소득 목록" className="w-screen mt-10">
-        <TabsList className="w-2/3 flex gap-10 mx-auto mb-10">
+      <Tabs defaultValue="소득 목록" className="mt-10">
+        <TabsList className="w-2/3 flex  gap-10  mx-auto mb-10">
           <TabsTrigger className="w-1/2 p-3 font-bold" value="소득 목록">
             <img src="/recharge_list.png" alt="" /> 소득 목록
           </TabsTrigger>

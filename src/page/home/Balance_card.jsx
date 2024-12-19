@@ -2,7 +2,7 @@ import React from "react";
 
 const Balance_card = () => {
   return (
-    <div className="bg-[url('/bg-balance.png')] my-10 bg-cover w-2/3 rounded-[40px] mx-auto text-white flex flex-col gap-5 p-10">
+    <div className="bg-[url('/bg-balance.png')] my-10 bg-cover rounded-[40px] mx-auto text-white flex flex-col gap-5 p-10">
       <div>
         <p>내 균형</p>
         <p>$ 520.80</p>

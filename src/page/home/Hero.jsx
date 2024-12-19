@@ -2,8 +2,8 @@ import React from "react";
 import logo from "/logo.png";
 const Hero = () => {
   return (
-    <div className="bg-blue-200 w-screen h-96 flex flex-col items-center">
-      <div className="grid grid-cols-2 ">
+    <div className="bg-blue-200 h-96 flex flex-col items-center">
+      <div className="grid grid-cols-2">
         <div>
           <h1 className="text-3xl font-semibold mb-2">Hello</h1>
           <p>cbmy</p>
