@@ -105,7 +105,7 @@ const Contact = () => {
                 ))
               ) : (
                 <img
-                  src="/public/upload_area.jpg"
+                  src="/upload_area.jpg"
                   className="w-1/5 h-20"
                   alt=""
                 />

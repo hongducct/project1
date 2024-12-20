@@ -9,28 +9,28 @@ const NavBar = () => {
   const nav = [
     {
       icon: <FiHome size={25} />,
-      title: "홈페지",
+      title: "Trang chủ",
       url: "/",
     },
     {
       icon: <CgShoppingBag size={25}/>,
-      title: "주문 변호",
+      title: "Đơn hàng",
       url: "/order",
     },
     {
       icon: <FaRegHandPointer size={25}/>,
       title: "Grap",
-      url: "/d",
+      url: "/rot_order",
     },
     {
       icon: <IoChatboxEllipsesOutline size={25}/>,
-      title: "고객 서비스",
+      title: "Khách hàng",
       url: "/contact",
     },
     {
       icon: <FaRegUser size={25}/>,
-      title: "개연 중심",
-      url: "/w",
+      title: "Tôi",
+      url: "/account",
     },
   ];
   return (

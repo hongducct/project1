@@ -5,32 +5,32 @@ const Taplist = () => {
   const list = [
     {
       img: "/recharge.png",
-      title: "입금",
+      title: "Nạp",
     },
     {
-      img: "/invite.png",
+      img: "/withdraw.png",
 
-      title: "출금",
+      title: "Rút",
     },
     {
-      img: "/public/team_report.png",
+      img: "/invite.png ",
 
-      title: "이체",
+      title: "Mời",
     },
     {
-      img: "/public/withdraw.png",
+      img: "/team_report.png",
 
-      title: "이체",
+      title: "Báo cáo nhóm",
     },
     {
-      img: "/public/withdraw_record.png",
+      img: "/withdraw_record.png",
 
-      title: "이체",
+      title: "Lịch sử rút tiền",
     },
     {
-      img: "/public/recharge_record.png",
+      img: "/recharge_record.png",
 
-      title: "이체",
+      title: "Lịch sử nạp tiền",
     },
   ];
   return (
