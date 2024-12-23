@@ -6,30 +6,37 @@ const Acount = () => {
   const account = [
     {
       title: "Rút",
+      url: "/ctrl/withdraw",
       icon: "/withdraw.png",
     },
     {
       title: "Lịch sử nạp tiền",
+      url: "/ctrl/recharge_record",
       icon: "/recharge_record.png",
     },
     {
       title: "Lịch sử rút tiền",
+      url: "/ctrl/withdraw_record",
       icon: "/withdraw_record.png",
     },
     {
       title: "Thông tin của tôi",
       icon: "/account_detail.png",
+      url: "/account/info",
     },
     {
       title: "ví của tôi",
       icon: "/bind_card.png",
+      url: "/account/wallet",
     },
     {
       title: "Đổi mật khẩu",
+      url: "/ctrl/changepwd",
       icon: "/change_pwd.png",
     },
     {
       title: "thay đổi mật khẩu thanh toán",
+      url: "/ctrl/changepaymentpwd",
       icon: "/chanhe_pay_pwd.png",
     },
     {
@@ -56,7 +63,7 @@ const Acount = () => {
                 <p>
                   Mã mở rộng <b>FYRS2Q</b>
                 </p>
-                <Link>
+                <Link to="/account/invite">
                   <IoGiftOutline />
                 </Link>
               </div>
@@ -90,7 +97,7 @@ const Acount = () => {
         </div>
         <div className="grid grid-cols-3 gap-3 bg-white rounded-2xl p-5 mt-10 shadow-xl place-items-stretch">
           {account.map((item) => (
-            <Link className="flex hover:underline text-sm flex-col hover:bg-gray-100 items-center">
+            <Link to={item.url} className="flex hover:underline text-sm flex-col hover:bg-gray-100 items-center">
               <img src={item.icon} alt="" />
               <p>{item.title}</p>
             </Link>
