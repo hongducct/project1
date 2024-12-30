@@ -15,12 +15,19 @@ import WithdrawRecord from "./page/controll/WithdrawRecord";
 import ChagePwd from "./page/controll/ChagePwd";
 import ChagePaymentPwd from "./page/controll/ChagePaymentPwd";
 import TeamReport from "./page/controll/TeamReport";
+import Login from "./page/auth/Login";
+import Register from "./page/auth/Register";
+
+import USDT from "./page/account/wallet/USDT";
+import BindCard from "./page/account/wallet/BindCard";
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/index" element={<Home />} />
         <Route path="/order" element={<Order />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/rot_order" element={<Rot_order />} />
@@ -38,6 +45,9 @@ function App() {
         <Route path="/ctrl/changepwd" element={<ChagePwd />} />
         <Route path="/ctrl/changepaymentpwd" element={<ChagePaymentPwd />} />
         <Route path="/ctrl/teamreport" element={<TeamReport />} />
+
+        <Route path="/account/wallet/usdt" element={<USDT />} />
+        <Route path="/account/wallet/bind-card" element={<BindCard />} />
 
       </Routes>
     </div>

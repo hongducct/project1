@@ -10,7 +10,7 @@ const NavBar = () => {
     {
       icon: <FiHome size={25} />,
       title: "Trang chủ",
-      url: "/",
+      url: "/index",
     },
     {
       icon: <CgShoppingBag size={25}/>,

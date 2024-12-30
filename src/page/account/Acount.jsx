@@ -25,7 +25,7 @@ const Acount = () => {
       url: "/account/info",
     },
     {
-      title: "ví của tôi",
+      title: "Ví của tôi",
       icon: "/bind_card.png",
       url: "/account/wallet",
     },
@@ -35,7 +35,7 @@ const Acount = () => {
       icon: "/change_pwd.png",
     },
     {
-      title: "thay đổi mật khẩu thanh toán",
+      title: "Thay đổi mật khẩu thanh toán",
       url: "/ctrl/changepaymentpwd",
       icon: "/chanhe_pay_pwd.png",
     },

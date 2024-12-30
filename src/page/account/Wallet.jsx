@@ -6,10 +6,12 @@ const Wallet = () => {
   const wallet = [
     {
       title: "Địa chỉ ví liên kết USDT",
+      url: "/account/wallet/usdt",
       icon: "/usdt.png",
     },
     {
       title: "Ràng buộc thẻ ngân hàng",
+      url: "/account/wallet/bind-card",
       icon: "/bind_card1.png",
     },
   ];
@@ -19,6 +21,7 @@ const Wallet = () => {
         <div className="bg-white">
           {wallet.map((item, index) => (
             <Link
+              to={item.url}
               key={index}
               className="hover:bg-gray-50 flex border-t gap-5 p-5 items-center"
             >
